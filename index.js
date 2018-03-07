@@ -20,6 +20,7 @@ function divide(a,b) {
 }
 
 var n = 5;
+<<<<<<< HEAD
 
 function inc(n) {
   return n+1;
@@ -27,6 +28,10 @@ function inc(n) {
 
 function dec(n) {
   return n-1;
+=======
+function inc(n) {
+  return n++;
+>>>>>>> d4dd6ff3a8ecf8accaeaa14475ff8f5cdab523cb
 }
 
 number;
@@ -68,9 +73,17 @@ parseInt('nonsense!', 10);
 parseFloat('80.123999');
 
 function makeInt(n) {
+<<<<<<< HEAD
  return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
   return parseFloat(n);
+=======
+ return parseInt('n', 10);
+}
+
+function preserveDecimal(n) {
+  return parseFloat('n');
+>>>>>>> d4dd6ff3a8ecf8accaeaa14475ff8f5cdab523cb
 }
